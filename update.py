@@ -53,7 +53,7 @@ def download_file(url, file_path):
 
 # GitHub-Repository-URL und Dateipfad für die heruntergeladene Datei festlegen
 github_repo_url = "https://github.com/BENutzer123/Beispiel-Repository"
-file_path = "data/update.py"
+file_path = "update.py"
 
 # Auf Updates prüfen und die Datei herunterladen
 check_for_updates(github_repo_url, file_path)
@@ -61,7 +61,7 @@ check_for_updates(github_repo_url, file_path)
 time.sleep(2)
 
 
-datei = open('data/logo.txt','r')
+datei = open('logo.txt','r')
 print(datei.read())
 else
 print('fehler')
